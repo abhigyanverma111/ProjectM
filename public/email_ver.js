@@ -9,9 +9,8 @@ document.addEventListener('DOMContentLoaded',()=>{
         
         // structure of the data object retrieving data from form 
         const data = {
-            stage:"initial",
-            email:document.getElementById("email").value,
-            username:document.getElementById("username").value
+            stage:"email-verification",
+            code:document.getElementById("code").value
         }
         console.log(data)
         // data object created
